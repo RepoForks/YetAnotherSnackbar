@@ -43,35 +43,35 @@ dependencies {
 ## Usage
 
 Each method always returns a `Snackbar` object, so you can customize the Snackbar much more. **DON'T FORGET THE `show()` METHOD!**
-To display an error Toast:
+To display an error Snackbar:
 
 ``` kotlin
 YAS.error(yourView, "Error Message").show()
 ```
-To display a success Toast:
+To display a success Snackbar:
 
 ``` kotlin
 YAS.success(yourView, "Error Message").show()
 ```
-To display an info Toast:
+To display an info Snackbar:
 
 ``` kotlin
 YAS.info(yourView, "Error Message").show()
 ```
-To display a warning Toast:
+To display a warning Snackbar:
 
 ``` kotlin
 YAS.warning(yourView, "Error Message").show()
 ```
-To display the usual Toast:
+To display the usual Snackbar:
 
 ``` kotlin
 YAS.normal(yourView, "Error Message").show()
 ```
 
-You can also create your custom Toasts with the `custom()` method:
+You can also create your custom Snackbars with the `make()` method:
 ``` kotlin
-make(view, {
+YAS.make(view, {
             text = "yourMessage"
             color = yourColor
             backgroundColor = Color.rgb(254, 196, 23)
