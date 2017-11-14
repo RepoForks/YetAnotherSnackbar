@@ -6,6 +6,15 @@ This Modules is minimum classes to Snackbar that make writing snackbar easily an
 
 ## Screenshots
 
+|     success     |      Info       |     warning     |
+| :-------------: | :-------------: | :-------------: |
+| ![Success](./art/SUKSES.png)  | ![Info](./art/INFO.png)       | ![Warning](./art/WARNING.png) |
+
+|      Error      |     Normal      |
+| :-------------: | :-------------: |
+| ![Error](./art/ERROR.png)      | ![Normal](./art/NORMAL.png)   |
+
+
 ## Downloads
 
 ### Gradle
